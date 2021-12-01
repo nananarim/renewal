@@ -267,7 +267,7 @@ input:focus{
 .sec3-slider{width: 60%;padding-top: 120px;}
 .sec3-slider .swiper-nav{display: flex; position: absolute;top: 0;left: 0; }
 .load-cont{width: 555px;padding:0 70px 0 30px;padding-top: 55px;} 
-.load-cont .part1{height: 260px;}
+.load-cont .part1{height: 200px;}
 .load-cont .part2 {padding-bottom: 2rem;}
 .load-cont .part2 dt{font-size: 25px;font-weight: 600;padding: 1rem 0 1rem;letter-spacing: -1px;
 line-height: normal;
@@ -279,6 +279,29 @@ line-height: normal;
 .main-sec3 .space-swiper-pn-num{margin-bottom: 0;}
 .load-cont .text-gray{font-weight: 300; font-size: 18px;
 line-height: normal;}
+
+/* news */
+.news_cont{
+    width: 100%;
+    display: flex;
+}
+.main_news .inner{padding:140px 200px 170px;min-height:300px;}
+.main_news h2{font-size: 2.72rem; font-weight: 600;line-height: 1.2;color:#000;}
+.main_news .news_cont li{cursor: pointer;border-bottom:1px #e5e5e5 solid;letter-spacing: -0.5px;font-size:15px;line-height:1.5;color:#555;padding:30px 0;}
+.main_news .news_cont li strong{font-size:22px;font-weight: 500;line-height:1.5;letter-spacing: -0.6px;color:#000;display: block;margin-bottom: 20px;}
+.main_news .news_cont li span{text-overflow: ellipsis;font-weight: 400;overflow: hidden;display: inline-block;width:740px;white-space: nowrap;height:26px}
+.news-left{
+    width: 50%;
+}
+.news-right{
+    width: 50%;
+    background-image: url('../image/news.png');
+    background-position: bottom;
+}
+.main_news_list{
+    padding: 0 80px 0 0;
+}
+
 
 
 /* footer */
@@ -405,13 +428,6 @@ line-height: normal;}
 
 .btn-wh{border-color: #fff;color: #fff;}
 .btn-wh:hover{background:#fff;color: #000;} 
-
-/* news */
-.main_news .inner{padding:140px 200px 170px;min-height:300px;}
-.main_news h2{font-size: 2.72rem; font-weight: 500;line-height: 1.2;color:#000;}
-.main_news .news_cont li{cursor: pointer;border-bottom:1px #e5e5e5 solid;letter-spacing: -0.5px;font-size:16px;line-height:1.5;color:#555;padding:30px 0;}
-.main_news .news_cont li strong{font-size:24px;font-weight: 500;line-height:1.5;letter-spacing: -0.6px;color:#000;display: block;margin-bottom: 20px;}
-.main_news .news_cont li span{text-overflow: ellipsis;font-weight: 400;overflow: hidden;display: inline-block;width:740px;white-space: nowrap;height:26px}
 
 @media (max-width:1610px){
     .sec2-slider .swiper-pagination a{ padding:1rem 0.6rem;font-size: 0.8rem ;}
