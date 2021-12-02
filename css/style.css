@@ -749,10 +749,7 @@ line-height: normal;}
     .sec3-slider .swiper-slide {
         height: 646px;
         width: 18%;
-    }
-    .sec3-slider .swiper-container {
-        padding: 0 0 63vw 0;
-    }
+    } 
     .sec3-slider .swiper-slide-active {
         width: 34%;
         min-width: 350px;
