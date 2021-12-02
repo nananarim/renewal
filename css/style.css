@@ -707,6 +707,13 @@ line-height: normal;}
     .sec2-slider .swiper-pagination a{ padding:1rem 0.6rem;font-size: 0.8rem ;}
 }
 
+@media (max-width: 1440px){
+    .sec3-slider {
+        width: calc(100% - 555px);
+        padding-top: 120px;
+    }
+}
+
 @media (min-width: 992px){
     #mainNav {
         padding-top: 1.5rem;
@@ -742,6 +749,9 @@ line-height: normal;}
     .sec3-slider .swiper-slide {
         height: 646px;
         width: 18%;
+    }
+    .sec3-slider .swiper-container {
+        padding: 0 0 63vw 0;
     }
     .sec3-slider .swiper-slide-active {
         width: 34%;
