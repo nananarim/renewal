@@ -937,8 +937,8 @@ line-height: normal;}
     .main-sec3 .cont{display: none;}
     .main-sec3 .swiper-nav{display: none;}
     .sec3-slider{width: 100%;padding-top: 0;}
-    .sec3-slider .swiper-container{padding:0 0 63vw 0;}
-    .sec3-slider .swiper-container h3{padding:12vw 14% 27vw 14%}
+    .sec3-slider .swiper-container{padding:0 0 50vw 0;}
+    .sec3-slider .swiper-container h3{padding:8vw 14% 30vw 14%}
     .sec3-slider .swiper-slide{height: 60.8vw;margin-top:10vw;margin-bottom: 10vw; background-size: cover;background-position: center center; } 
     .sec3-slider .swiper-slide-active{height: 80.5vw;margin-top: 0;margin-bottom: 0;}
     .sec3-slider .swiper-slide>*{position: absolute;opacity: 0;;width: 100%} 
@@ -953,7 +953,7 @@ line-height: normal;}
     .sec3-slider .part2>p{font-size: 1.1rem;padding: 1rem;;}
     .sec3-slider .part2>p:last-child{padding-top: 0.5rem;}
     .sec3-slider .part2 dt{display: block;font-size: 1.1rem;font-weight: 600; margin-bottom: 0.5rem ; width: 100%;} 
-    .sec3-slider .part2 dd{display: block;font-size: 0.9rem;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;height: 2.5rem;width: 100%;opacity: 0.8;} 
+    .sec3-slider .part2 dd{display: block;font-size: 0.9rem;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;height: 4rem;width: 100%;opacity: 0.8;} 
     .main-sec3 .swiper-pagination{position: absolute;bottom: 0;width: 100%;text-align: center  ;}
     .main-sec3 .space-swiper-pn-num{margin-bottom: 1.5rem;}
     .main-sec3 .space-swiper-pn{
@@ -970,5 +970,25 @@ line-height: normal;}
         color: #b2b2b2;
         display: none;
     }
-    
+    .swiper-container{
+        height: auto !important;
+    }
+    .text-gray{
+        margin-top: 2rem!important;
+    }
+    .swiper-control .swiper-pagination-bullet:first-child {
+        display: block;
+        transform: translate(-120% , -50% );
+        color: #f5a500;
+        font-size: 20px;
+    }
+    .swiper-control .swiper-pagination-bullet:last-child {
+        display: block;
+        right: 0;
+        transform: translate( 120% , -50%);
+        font-size: 20px;
+    }
+    .news-left {
+        width: 100%;
+    }
 }
