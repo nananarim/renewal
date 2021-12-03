@@ -279,8 +279,8 @@ $(function (){
  
   if($window.width() > 991 ) {
   var sec2html= '<div class="swiper-slide only-pc">'
-    +'  <div class="box-pc" style="background-image:url(images/index/sect2-img0.jpg)">'
-    +'      <p class="obj ani ani-delay05" style="background-image:url(images/index/sect2-img0.png)"></p>'
+    +'  <div class="box-pc" style="background-image:url(image/icon/bg5.png)">'
+    +'      <p class="obj ani ani-delay05" style="background-image:url(image/icon/png6.png)"></p>'
     +'      <div class="wrap"> '
     +'      </div>'
     +'  </div> '
