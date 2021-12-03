@@ -898,3 +898,27 @@ line-height: normal;}
     .sec2-slider .swiper-pagination a:first-child{flex:none; width: 0px !important;padding: 0 !important; display: inline-block; overflow: hidden !important;border-right: 0;} 
     .sec2-slider .swiper-pagination a:last-child{border-right: 0;}
 }
+
+@media (max-width:769px){
+    .slide .carousel-item .slider-item .ilux p {
+        top: 31%;
+        font-size: 40px;
+    }
+    .slide .carousel-item .slider-item .ilux-text p {
+        font-size: 11px;
+    }
+    .slide .carousel-item .slider-item .cgv p {
+        top: 30%;
+        font-size: 38px;
+    }
+    .slide .carousel-item .slider-item .cgv-text p {
+        font-size: 13px;
+    }
+    .slide .carousel-inner p a {
+        font-size: 10px;
+        left: 17%;
+    }
+    .main_visual_search {
+        padding: 80px 0;
+    }
+}
